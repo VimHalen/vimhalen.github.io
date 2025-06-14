@@ -1,0 +1,50 @@
+body {
+  background-color:black;
+  color:#1cff00;
+  padding: 0.05rem;
+}
+
+hr {
+  color: #1cff00;
+}
+
+/* Header */
+header {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.social {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.fa-brands {
+  padding: 0.1rem;
+  text-decoration: none;
+  color:#ddd;
+  margin: 0.1rem;
+}
+
+.fa-brands:hover {
+    opacity: 0.7;
+}
+
+
+/* Projects */
+a {
+  color: #ddd;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.7;
+  text-decoration: underline;
+}
+
+iframe {
+    aspect-ratio: 16 / 9;
+    max-width: 100% !important;
+}
+

@@ -1,6 +1,16 @@
 <!doctype html>
 <html lang="en-CA">
 <head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z1G3LD6GHE"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-Z1G3LD6GHE');
+  </script>
+
   <title>VimHalen</title>
   <!-- Metadata -->
   <meta charset="utf-8">
@@ -16,67 +26,58 @@
   <meta property="og:url" content="https://vimhalen.github.io/">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="en_CA">
-  <!-- ICO -->
+  <!-- Link -->
   <link rel="canonical" href="https://vimhalen.github.io/">
   <link rel="icon" type="image/png" href="/img/favicon-96x96.png" sizes="96x96" />
   <link rel="icon" type="image/svg+xml" href="/img/favicon.svg" />
   <link rel="shortcut icon" href="/img/favicon.ico" />
   <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png" />
   <link rel="manifest" href="/img/site.webmanifest" />
-
-  <!-- Style -->
-   <style>
-    body {
-      background-color:black;
-      color:#1cff00;
-    }
-    a {
-      color: #00aaff;
-      text-decoration: underline;
-    }
-    iframe {
-        aspect-ratio: 16 / 9;
-        max-width: 100% !important;
-    }
-   </style>
+  <link rel="stylesheet" type ="text/css" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
+
+<!-- Body -->
 <body>
 <header>
   <h1>VimHalen</h1>
-  <h2>Projects:</h2>
+  <div class="social">
+    <h3>
+    <a href="https://www.github.com/VimHalen" class="fa-brands fa-github" target="_blank"></a>
+    <a href="http://www.youtube.com/@vimhalen" class="fa-brands fa-youtube" target="_blank"></a>
+    <a href="https://bsky.app/profile/vimhalen.bsky.social" class="fa-brands fa-bluesky" target="_blank"></a>
+    <a href="https://www.reddit.com/user/vimhalen/" class="fa-brands fa-reddit" target="_blank"></a>
+    </h3>
+  </div>
 </header>
-
-<section>
+<!-- Projects -->
+<!-- Snake Box -->
+<article>
   <hr>
-  <h3><a href="https://vimhalen.github.io/SnakeBox">Snake Box</a></h3>
+  <h2><a href="https://vimhalen.github.io/SnakeBox">Snake Box</a></h2>
   <p>
     Snake Box is an arcade-style snake game for VR where the snake moves inside a cube rather than on a plane.
   </p>
-  <p>
-    Here's a video:
-  </p>
   <iframe width="1080" src="https://www.youtube.com/embed/J3PxshFA3a8?si=Uo4e2FLnjYKx55B6" allowfullscreen>
   </iframe>
-  <p>Written in 2025 as a hobby project using Unreal Engine.</p>
-</section>
-<hr>
-<section>
-  <h3><a href="https://www.github.com/VimHalen/InterLivre">InterLivre</a></h3>
-  <p>InterLivre is an app I wrote to splice together French and English audiobooks. The spliced books switch back and forth between the two languages a little bit at a time.</p>
-  <p>Here's a video:</p>
-  <iframe width="1080" src="https://www.youtube.com/embed/kZqpZ60LSZA?si=Rgva360WVFdYyLVj" allowfullscreen></iframe>
-</section>
+  <p>Written in 2025 as a hobby project using Unreal Engine</p>
+</article>
 
+<!-- InterLivre -->
+<article>
+  <hr>
+  <h2><a href="https://www.github.com/VimHalen/InterLivre">InterLivre</a></h2>
+  <p>InterLivre is an app I wrote to splice together French and English audiobooks. The spliced books switch back and forth between the two languages a little bit at a time.</p>
+  <iframe width="1080" src="https://www.youtube.com/embed/kZqpZ60LSZA?si=Rgva360WVFdYyLVj" allowfullscreen></iframe>
+  <p>Written in Summer 2024 in Python</p>
+</article>
+
+<!-- Footer -->
 <footer>
   <hr>
   <p>
     <small>
-      © VimHalen
-    </small>
-  </p>
-  <p>
-    <small>
-      Built by <a href="https://www.github.com/VimHalen">VimHalen</a>
+      © <a href="https://www.github.com/VimHalen">VimHalen</a>
     </small>
   </p>
 </footer>
